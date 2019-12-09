@@ -1,0 +1,34 @@
+{
+  "name": "cli-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KsAkira10/node-cli-generator.git"
+  },
+  "keywords": [
+    "node",
+    "cli"
+  ],
+  "author": "Lucas Akira Uehara <akirauehara@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KsAkira10/node-cli-generator/issues"
+  },
+  "homepage": "https://github.com/KsAkira10/node-cli-generator#readme",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "cli-table": "0.3.1",
+    "commander": "2.19.0",
+    "figlet": "1.2.1",
+    "inquirer": "6.2.2",
+    "shelljs": "0.8.3"
+  },
+  "bin": {
+    "todo": "index.js"
+  }
+}
